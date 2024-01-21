@@ -1,0 +1,503 @@
+.courses-page {
+
+main{
+    .alink{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        color: var(--Text-Body, #808080);
+        gap: 8px;
+        // margin-left: 103px;
+
+/* Paragraph/Semibold/Body - 16px */
+font-family: "Montserrat SemiBold";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+    }
+    .txt{
+        padding-bottom: 24px;
+      
+        margin-top: 24px;
+          p{
+            max-width:738px;
+            color: var(--Text-Tittle, #1C3554);
+
+/* Heading/Bold/H2 - 64px */
+font-family: Rubik;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 88px; /* 137.5% */
+        }
+        #pl{
+            
+            max-width:712px;
+            color: var(--Text-Body, #808080);
+
+/* Paragraph/Reguler/Body - 16px */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 168.75% */
+        }
+        #ll{
+            padding-top: 104px;
+            color: var(--Text-Tittle, #1C3554);
+font-variant-numeric: lining-nums proportional-nums;
+
+/* Heading/Bold/H4 - 32px */
+font-family: Rubik;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 150% */
+text-transform: capitalize;
+        }
+    }
+
+.card{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 16px;
+    .card-st{
+        width: 296px;
+height: 391px;
+flex-shrink: 0;
+opacity: 0.50;
+background: var(--other-overlay-50, #000);
+p{
+    margin-top: 350px;
+    text-align: center;
+    color: var(--Text-white, #FFF);
+font-variant-numeric: lining-nums proportional-nums;
+
+/* Heading/Bold/H5 - 24px */
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+}
+    }
+}
+
+
+}
+
+
+.text-line{
+display: flex;
+justify-content: space-between;
+margin-top: 180px;
+a{
+display: flex;
+align-items: center;
+button{
+    padding-left: 100px;
+display: inline-flex;
+padding: 16px 40px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--primary-20-pink, #FFF5F9);
+color: var(--Primary-Pink, #F72585);
+
+/* Paragraph/Semibold/Body - 16px */
+font-family: "Montserrat SemiBold";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+border: none;
+}
+#nm{
+    margin-left: 50px;
+    display: inline-flex;
+padding: 16px 40px;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--Primary-Pink, #F72585);
+color: var(--Other-white, #FFF);
+transition: 0.3s;
+
+/* Paragraph/Semibold/Body - 16px */
+font-family: "Montserrat SemiBold";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+#nm:hover{
+    border-radius: 8px;
+background: var(--primary-20-pink, #F72585AA);
+color: #000;
+
+}
+}
+}
+.card-st{
+    max-width: 300px;
+    .card-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--Text-Tittle, #1C3554);
+font-variant-numeric: lining-nums proportional-nums;
+
+/* Heading/Bold/H5 - 24px */
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+padding-bottom: 21px;
+    }
+}
+.card-st2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 16px;
+    p{
+        color: var(--Text-Tittle, #1C3554);
+
+/* Paragraph/Semibold/Caption - 14px */
+font-family: "Montserrat SemiBold";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+    }
+    #ln{
+        color: var(--Text-Body, #808080);
+
+/* Paragraph/Semibold/Caption - 14px */
+font-family: "Montserrat SemiBold";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+    }
+}
+.card-v{
+    max-width: 300px;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    display:flex;
+    justify-content: space-between;
+    p{
+        color: var(--Text-Tittle, #1C3554);
+font-variant-numeric: lining-nums proportional-nums;
+
+/* Heading/Bold/H5 - 24px */
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+    }
+}
+.card-st3{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 16px;
+    #po{
+        color: var(--Text-Tittle, #1C3554);
+
+/* Paragraph/Semibold/Body - 16px */
+font-family: "Montserrat SemiBold";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+    }
+    #ls{
+        color: var(--Text-Body, #808080);
+
+/* Paragraph/Semibold/Caption - 14px */
+font-family: "Montserrat SemiBold";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+    }
+    .trt{
+        display: flex;
+        position: relative;
+        top: 70px;
+        right: 231px;
+        gap: 10px;
+        align-items: center;
+        max-width: 150px;
+        p{
+            color: var(--Text-Tittle, #1C3554);
+
+/* Paragraph/Semibold/Body - 16px */
+font-family: "Montserrat SemiBold";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 200% */
+        }
+    }
+    .ert{display: flex;
+        gap: 130px;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 700px;
+        position: relative;
+        top: 150px;
+        right: 345px;
+        p{
+            color: var(--Text-Tittle, #1C3554);
+font-variant-numeric: lining-nums proportional-nums;
+
+/* Heading/Bold/H5 - 24px */
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+        }
+    }
+    #mj{
+        position: relative;
+        left: -37px;
+    }
+    .io{
+        position: relative;
+        top: 90px;
+    }
+    
+}
+.trf{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    position: relative;
+    top: -1500px;
+    left: 250px;
+    padding-bottom: 56px;
+}
+}
+
+
+
+
+.mini-card {
+    transition: 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 295px;
+    height: 427px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Other-white, #fff);
+    padding: 16px 16px 0 16px;
+    .mini-img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      width: 262px;
+      height: 208px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background: var(--Text-In-Field, #ccc);
+      button {
+        position: relative;
+        top: 16px;
+        border: none;
+        padding: 4px 24px;
+        border-radius: 8px;
+        background: var(--Other-Blue, #4586d6);
+        color: var(--Text-white, #fff);
+
+        /* Paragraph/Semibold/Label - 12px */
+        font-family: "Montserrat SemiBold";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 200% */
+      }
+    }
+    .mini-texts {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 12px;
+      h6 {
+        height: 48px;
+        max-width: 262.891px;
+        color: var(--Text-Tittle, #1c3554);
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* Heading/Medium/H6 - 16px */
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px; /* 150% */
+        text-transform: capitalize;
+      }
+      p {
+        max-width: 262.891px;
+        color: var(--Primary-Pink, #f72585);
+
+        /* Paragraph/Semibold/Label - 12px */
+        font-family: "Montserrat SemiBold";
+        font-size: 12px;
+        font-style: normal;
+        line-height: 24px; /* 200% */
+      }
+      .gr-star {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        p {
+          color: var(--Text-Body, #808080);
+
+          /* Paragraph/Semibold/Caption - 14px */
+          font-family: "Montserrat SemiBold";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 171.429% */
+        }
+      }
+      .gr-sent {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        gap: 8px;
+        p {
+          color: var(--Text-In-Field, #ccc);
+
+          /* Paragraph/Reguler/Body - 16px */
+          font-family: Montserrat;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 27px; /* 168.75% */
+        }
+        h5 {
+          color: var(--Text-Tittle, #1c3554);
+
+          /* Heading/Medium/H5 - 24px */
+          font-family: Rubik;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 32px; /* 133.333% */
+        }
+      }
+    }
+  }
+
+
+.cards-l{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+// body {
+//     margin: 0;
+//     padding: 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+//     background-color: #f0f0f0;
+// }
+
+.carousel-container {
+    overflow: hidden;
+    width: 80%;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+    @media (max-width: 1440px) {
+
+        
+    }
+    
+    @media (max-width: 976px) {
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .card-st{
+            text-align: center;
+        }
+        
+    }
+    
+    @media (max-width: 768px) {
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .card-st {
+            text-align: center;
+        }
+       
+
+    
+    }
+    
+    @media (max-width: 480px) {
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .card-st {
+            text-align: center;
+        }
+
+    
+    }

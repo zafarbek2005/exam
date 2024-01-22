@@ -1531,11 +1531,6 @@ nav .logo {
   height: auto;
 }
 
-footer {
-  position: relative;
-  top: -1400px;
-}
-
 /*responsive*/
 @media (max-width: 976px) {
   .card {
